@@ -1,0 +1,597 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOEHaO+pQ2g4UcGUEyPh2sG",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MarkusColeman/DI/blob/main/Week01/Day1/%20ExerciseXP\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Exercise 1 : Hello World\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "Instructions\n",
+        "\n",
+        "---\n",
+        "\n",
+        "Print the following output in one line of code:\n",
+        "\n",
+        "Hello world\n",
+        "\n",
+        "Hello world\n",
+        "\n",
+        "Hello world\n",
+        "\n",
+        "Hello world\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "IkSEu6iDF-Cn"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "4tHJSCxeJc-V"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Hello World\\n\" * 4)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bEyW86Z3GFb3",
+        "outputId": "0f58a385-6ba1-4581-9a88-5f7c26ebf994"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello World\n",
+            "Hello World\n",
+            "Hello World\n",
+            "Hello World\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Exercise 2 : Some Math\n",
+        "\n",
+        "\n",
+        "Instructions\n",
+        "\n",
+        "\n",
+        "\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "Write code that calculates the result of: (99^3)*8 (meaning 99 to the power of 3, times 8).\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "tt3PybBGHO5M"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print ((99**3)*8)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RK-wyAxIHqSd",
+        "outputId": "60518126-7bee-492f-b9c8-bf2e58304802"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7762392\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Exercise 3 : What is the output ?\n",
+        "\n",
+        "Instructions\n",
+        "\n",
+        "\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "Predict the output of the following code snippets:\n",
+        "\n",
+        ">>> 5 < 3\n",
+        "\n",
+        ">>> 3 == 3\n",
+        "\n",
+        ">>> 3 == \"3\"\n",
+        "\n",
+        ">>> \"3\" > 3\n",
+        "\n",
+        ">>> \"Hello\" == \"hello\""
+      ],
+      "metadata": {
+        "id": "jq9mTSFGJUXK"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "My Prediction:\n",
+        "\n",
+        "False\n",
+        "\n",
+        "True\n",
+        "\n",
+        "False\n",
+        "\n",
+        "Error (Can't compare a str and int)\n",
+        "\n",
+        "False\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "CWupk1m8Li_8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "5 < 3"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VZMBqu3OMQnU",
+        "outputId": "1de875d3-9cb3-4d05-ba64-1759b7a634b5"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 8
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "3 == 3"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "d8rn6DGSMZam",
+        "outputId": "27318bab-11b1-4978-96b0-688e04fbab32"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "3 == \"3\""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6H0vvwkGMcar",
+        "outputId": "49614f2f-c049-483d-8f6a-3314d7c150f4"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"3\" > 3"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 144
+        },
+        "id": "G-3HDdj9MgmE",
+        "outputId": "e4d3f413-a16b-4639-e196-9a55740f7d7e"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "TypeError",
+          "evalue": "'>' not supported between instances of 'str' and 'int'",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-11-42110b60e566>\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0;34m\"3\"\u001b[0m \u001b[0;34m>\u001b[0m \u001b[0;36m3\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m: '>' not supported between instances of 'str' and 'int'"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"Hello\" == \"hello\""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qyTatMNjMl34",
+        "outputId": "a1ae988d-08ec-48f7-aa68-b958bb744adf"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 12
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Exercise 4 : Your computer brand\n",
+        "\n",
+        "Instructions\n",
+        "\n",
+        "\n",
+        "---\n",
+        "\n",
+        "\n",
+        "1. Create a variable called computer_brand which value is the brand name of your computer.\n",
+        "\n",
+        "2. Using the computer_brand variable print a sentence that states the following: \"I have a <computer_brand> computer\"."
+      ],
+      "metadata": {
+        "id": "f_Kxm5tAMu8i"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "computer_brand = 'Apple'\n",
+        "print(f'I have an {computer_brand} computer')\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-tg5SxTINVWU",
+        "outputId": "58b31ddf-ea7a-4a15-cdb7-33b007c6959c"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I have an Apple computer\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Exercise 5 : Your information\n",
+        "\n",
+        "Instructions\n",
+        "\n",
+        "\n",
+        "---\n",
+        "\n",
+        "\n",
+        "1. Create a variable called name, and set it’s value to your name.\n",
+        "2. Create a variable called age, and set it’s value to your age.\n",
+        "3. Create a variable called shoe_size, and set it’s value to your shoe size.\n",
+        "4. Create a variable called info and set it’s value to an interesting sentence about yourself. The sentence must contain all the variables created in parts 1, 2 and 3.\n",
+        "5. Have your code print the info message.\n",
+        "6. Run your code"
+      ],
+      "metadata": {
+        "id": "dkPmbH4KQyQq"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name='Markus'\n",
+        "age = str(41)\n",
+        "shoe_size = str(12)\n",
+        "info= \"My name is \" + name + \" and I am \" + age + \" year's old. I wear a size \" + shoe_size + \" shoe, which is really hard to find when I'm traveling in countries where people have small feet.\"\n",
+        "print(info)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WX6kZ2MDRHfv",
+        "outputId": "cb9eb09e-3996-4131-dcd4-3c135e8fb746"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My name is Markus and I am 41 year's old. I wear a size 12 shoe, which is really hard to find when I'm traveling in countries where people have small feet.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Exercise 6 : A & B\n",
+        "\n",
+        "Instructions\n",
+        "\n",
+        "\n",
+        "---\n",
+        "\n",
+        "\n",
+        "1. Create two variables, a and b.\n",
+        "2. Each variable value should be a number.\n",
+        "3. If a is bigger then b, have your code print Hello World."
+      ],
+      "metadata": {
+        "id": "odJiYg1QoGdJ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 150\n",
+        "b =  70\n",
+        "if a > b:\n",
+        "  print(\"Hello World\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OsuNqXwLoV_N",
+        "outputId": "88f52267-f981-40da-b6cd-e1c6bd3f362e"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello World\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Exercise 7 : Odd or Even\n",
+        "\n",
+        "Instructions\n",
+        "\n",
+        "\n",
+        "---\n",
+        "\n",
+        "\n",
+        "Write code that asks the user for a number and determines whether this number is odd or even."
+      ],
+      "metadata": {
+        "id": "dGtol-AKotza"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "user_number = int(input(\"Select a number \"))\n",
+        "if user_number % 2 == 0:\n",
+        "  print(\"Number is even\")\n",
+        "else:\n",
+        "  print(\"Number is odd\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aRD205b8o0dB",
+        "outputId": "4c7b17a0-b280-4d39-ac3c-aaf2eb6ff84c"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Select a number 3\n",
+            "Number is odd\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Exercise 8 : What’s your name ?\n",
+        "\n",
+        "Instructions\n",
+        "\n",
+        "\n",
+        "---\n",
+        "\n",
+        "\n",
+        "Write code that asks the user for their name and determines whether or not you have the same name, print out a funny message based on the outcome."
+      ],
+      "metadata": {
+        "id": "v5qbOpXhseXJ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "myName= \"Markus\"\n",
+        "username= input(\"What's your name? \")\n",
+        "if myName == username:\n",
+        "  print(\"Hello, me!\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ff7jR9RusjT6",
+        "outputId": "3fa82119-cd64-47d6-9210-6ebd99d4333f"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "What's your name? Markus\n",
+            "Hello, me!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Exercise 9 : Tall enough to ride a roller coaster\n",
+        "\n",
+        "Instructions\n",
+        "\n",
+        "\n",
+        "---\n",
+        "\n",
+        "\n",
+        "1. Write code that will ask the user for their height in centimeters.\n",
+        "2. If they are over 145cm print a message that states they are tall enough to ride.\n",
+        "3. If they are not tall enough print a message that says they need to grow some more to ride.\n"
+      ],
+      "metadata": {
+        "id": "mYzhT5hLtYG7"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "user_height_cm = int(input(\"What's your height in centimeters? \"))\n",
+        "if user_height_cm > 145:\n",
+        "  print(\"You are tall enough to ride this ride!\")\n",
+        "else:\n",
+        "  print(\"Sorry, you are not tall enough for this ride!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "U61bP3g7uFmX",
+        "outputId": "0e53b4b4-8700-478e-cfa4-afeb1a1ed54e"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "What's your height in centimeters? 130\n",
+            "Sorry, you are not tall enough for this ride!\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
